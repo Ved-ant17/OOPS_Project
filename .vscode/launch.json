@@ -1,0 +1,23 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Main",
+            "request": "launch",
+            "mainClass": "com.chess.Main",
+            "projectName": "BlackWidow-Chess-master_dd5bf60"
+        },
+        {
+            "type": "java",
+            "name": "Launch Main",
+            "request": "launch",
+            "mainClass": "com.chess.Main",
+            "projectName": "Main.java",
+            "classpath": [
+                ".",
+                "lib/mysql-connector-j-9.3.0/mysql-connector-j-9.3.0.jar"
+            ],
+            "console": "integratedTerminal"
+        }
+    ]
+}
